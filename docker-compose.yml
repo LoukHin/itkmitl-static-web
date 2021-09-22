@@ -1,0 +1,6 @@
+services:
+  nginx:
+    build: .
+    image: ghcr.io/loukhin/static-web:dev
+    ports:
+      - "8080:80"
